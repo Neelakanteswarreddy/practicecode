@@ -9,3 +9,16 @@ class PrimeNumber{
      return true;
    }
 }
+
+public static void main(String[] args)
+{
+  int x=25;
+  for(int i=1;i<=x;i++)
+  {
+     boolean b=Prime(i);
+     if(b)
+      {
+        Sytsem.out.println(i+"is a prime number");
+      }
+   }
+}
